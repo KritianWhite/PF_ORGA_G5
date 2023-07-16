@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="102.02134836342117" y2="0" width="0" layer="20"/>
+<wire x1="102.02134836342117" y1="0" x2="102.02134836342117" y2="336.72055057882386" width="0" layer="20"/>
+<wire x1="102.02134836342117" y1="336.72055057882386" x2="0" y2="336.72055057882386" width="0" layer="20"/>
+<wire x1="0" y1="336.72055057882386" x2="0" y2="0" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="Tinkercad">
+<packages>
+<package name="78B04ST" urn="urn:adsk.eagle:footprint:32429430/1"><pad name="1" x="-3.81" y="-3.81" drill="0.8"/><pad name="2" x="-1.27" y="-3.81" drill="0.8"/><pad name="3" x="1.27" y="-3.81" drill="0.8"/><pad name="4" x="3.81" y="-3.81" drill="0.8"/><pad name="5" x="3.81" y="3.81" drill="0.8"/><pad name="6" x="1.27" y="3.81" drill="0.8"/><pad name="7" x="-1.27" y="3.81" drill="0.8"/><pad name="8" x="-3.81" y="3.81" drill="0.8"/><wire x1="-6.096" y1="-4.826" x2="6.096" y2="-4.826" width="0.127" layer="21"/><wire x1="6.096" y1="-4.826" x2="6.096" y2="4.826" width="0.127" layer="21"/><wire x1="6.096" y1="4.826" x2="-6.096" y2="4.826" width="0.127" layer="21"/><wire x1="-6.096" y1="4.826" x2="-6.096" y2="-4.826" width="0.127" layer="21"/><text x="0" y="5.08" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-5.08" size="1.27" layer="27" align="top-center">&gt;VALUE</text><circle x="-5.334" y="-4.064" radius="0.127" width="0.254" layer="21"/></package>
+<package name="LEDRD254W60D565H860B" urn="urn:adsk.eagle:footprint:16378492/1"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><wire x1="2.5425" y1="1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="154.1581"/><wire x1="2.5425" y1="-1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="-154.1581"/><wire x1="2.5425" y1="1.2314" x2="2.5425" y2="-1.2314" width="0.12" layer="21"/><wire x1="-2.5946" y1="2.5946" x2="-1.8446" y2="2.5946" width="0.12" layer="21"/><wire x1="-2.2196" y1="2.9696" x2="-2.2196" y2="2.2196" width="0.12" layer="21"/><pad name="1" x="-1.27" y="0" drill="0.981" diameter="1.581"/><pad name="2" x="1.27" y="0" drill="0.981" diameter="1.581"/><circle x="0" y="0" radius="2.825" width="0.12" layer="51"/><text x="0" y="3.6046" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-3.4642" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+<package name="BATTERY-GENERIC" urn="urn:adsk.eagle:footprint:32408253/1"><pad name="-" x="-2.54" y="0" drill="1.1176" diameter="3.1496" shape="octagon"/><pad name="+" x="2.54" y="0" drill="1.1176" diameter="3.1496" shape="octagon"/><wire x1="-4.318" y1="2.54" x2="-5.08" y2="1.778" width="0.1524" layer="21"/><wire x1="-5.08" y1="1.778" x2="-5.08" y2="-1.778" width="0.1524" layer="21"/><wire x1="-5.08" y1="-1.778" x2="-4.318" y2="-2.54" width="0.1524" layer="21"/><wire x1="-4.318" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="21"/><wire x1="4.318" y1="-2.54" x2="5.08" y2="-1.778" width="0.1524" layer="21"/><wire x1="5.08" y1="-1.778" x2="5.08" y2="1.778" width="0.1524" layer="21"/><wire x1="5.08" y1="1.778" x2="4.318" y2="2.54" width="0.1524" layer="21"/><wire x1="2.54" y1="1.905" x2="2.54" y2="3.175" width="0.254" layer="21"/><wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.254" layer="21"/><wire x1="-3.048" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="21"/><text x="0" y="3.81" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-3.81" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+<package name="RESAD1016W63L850D250B" urn="urn:adsk.eagle:footprint:31513019/1"><description>Axial Resistor, 10.16 mm pitch, 8.50 mm body length, 2.50 mm body diameter
+ &lt;p&gt;Axial Resistor package with 10.16 mm pitch (lead spacing), 0.63 mm lead diameter, 8.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description><pad name="1" x="-5.08" y="0" drill="0.83" diameter="1.43"/><pad name="2" x="5.08" y="0" drill="0.83" diameter="1.43"/><wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="21"/><wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="21"/><wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.12" layer="21"/><wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="21"/><wire x1="-4.25" y1="0" x2="-4.111" y2="0" width="0.12" layer="21"/><wire x1="4.25" y1="0" x2="4.111" y2="0" width="0.12" layer="21"/><wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="51"/><wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="51"/><wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.12" layer="51"/><wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="51"/><text x="0" y="1.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-1.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+</packages>
+<packages3d>
+<package3d name="78B04ST" urn="urn:adsk.eagle:package:32429434/1" type="model"><packageinstances><packageinstance name="78B04ST"/></packageinstances></package3d>
+<package3d name="LEDRD254W60D565H860B" urn="urn:adsk.eagle:package:16378508/1" type="model"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><packageinstances><packageinstance name="LEDRD254W60D565H860B"/></packageinstances></package3d>
+<package3d name="BATTERY-GENERIC" urn="urn:adsk.eagle:package:32408255/2" type="model"><packageinstances><packageinstance name="BATTERY-GENERIC"/></packageinstances></package3d>
+<package3d name="RESAD1016W63L850D250B" urn="urn:adsk.eagle:package:31513020/1" type="model"><description>Axial Resistor, 10.16 mm pitch, 8.50 mm body length, 2.50 mm body diameter
+ &lt;p&gt;Axial Resistor package with 10.16 mm pitch (lead spacing), 0.63 mm lead diameter, 8.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description><packageinstances><packageinstance name="RESAD1016W63L850D250B"/></packageinstances></package3d>
+</packages3d>
+</library></libraries>
+<attributes/>
+<variantdefs/>
+<classes>
+<class number="0" name="default" width="0" drill="0"/>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.
+</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.
+</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes"/>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes"/>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="D26" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="76.5317" y="86.4453" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="76.5317" y="86.4453" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D25" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="84.1517" y="86.4453" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="84.1517" y="86.4453" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D24" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="89.2317" y="91.5253" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="89.2317" y="91.5253" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D23" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="89.2317" y="99.1453" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="89.2317" y="99.1453" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D18" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="76.3721" y="153.0108" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="76.3721" y="153.0108" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D17" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="83.9921" y="153.0108" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="83.9921" y="153.0108" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D16" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="89.0721" y="158.0908" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="89.0721" y="158.0908" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D15" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="89.0721" y="165.7108" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="89.0721" y="165.7108" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D14" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="83.9921" y="170.7908" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="83.9921" y="170.7908" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D9" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="80.5721" y="231.0242" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="80.5721" y="231.0242" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D8" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="88.1921" y="231.0242" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="88.1921" y="231.0242" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D7" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="93.2721" y="236.1042" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="93.2721" y="236.1042" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="93.2721" y="243.7242" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="93.2721" y="243.7242" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="88.1921" y="248.8042" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="88.1921" y="248.8042" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="80.5721" y="248.8042" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="80.5721" y="248.8042" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D49" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="83.2613" y="296.9554" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="83.2613" y="296.9554" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D48" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="90.8813" y="296.9554" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="90.8813" y="296.9554" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D47" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="95.9613" y="302.0354" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="95.9613" y="302.0354" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D46" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="95.9613" y="309.6554" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="95.9613" y="309.6554" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D45" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="90.8813" y="314.7354" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="90.8813" y="314.7354" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D44" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="83.2613" y="314.7354" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="83.2613" y="314.7354" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D43" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="78.1813" y="309.6554" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="78.1813" y="309.6554" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R1" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="76.9113" y="289.3354" rot="R90" smashed="yes"/>
+<element name="D50" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="78.1813" y="302.0354" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="78.1813" y="302.0354" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SW1" library="Tinkercad" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/1" value="SPST-478B04ST" x="45.1613" y="305.8454" smashed="yes"/>
+<element name="BAT2" library="Tinkercad" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/2" value="3V" x="21.6665" y="328.4656" rot="R270" smashed="yes"/>
+<element name="R3" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="74.2221" y="258.9642" rot="R90" smashed="yes"/>
+<element name="D2" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="75.4921" y="243.7242" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="75.4921" y="243.7242" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SW2" library="Tinkercad" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/1" value="SPST-478B04ST" x="42.4721" y="239.9142" smashed="yes"/>
+<element name="BAT3" library="Tinkercad" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/2" value="3V" x="18.9773" y="262.5344" rot="R270" smashed="yes"/>
+<element name="D10" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="75.4921" y="236.1042" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="75.4921" y="236.1042" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="74.2221" y="223.4042" rot="R90" smashed="yes"/>
+<element name="R5" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="70.0221" y="145.3908" rot="R90" smashed="yes"/>
+<element name="D11" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="71.2921" y="158.0908" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="71.2921" y="158.0908" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BAT4" library="Tinkercad" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/2" value="3V" x="14.7772" y="184.5209" rot="R270" smashed="yes"/>
+<element name="SW3" library="Tinkercad" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/1" value="SPST-478B04ST" x="38.2721" y="161.9008" smashed="yes"/>
+<element name="R9" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="75.1021" y="180.9508" rot="R90" smashed="yes"/>
+<element name="D13" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="76.3721" y="170.7908" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="76.3721" y="170.7908" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D12" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="71.2921" y="165.7108" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="71.2921" y="165.7108" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R8" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="70.0221" y="180.9508" rot="R90" smashed="yes"/>
+<element name="R6" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="70.1817" y="78.8253" rot="R90" smashed="yes"/>
+<element name="D19" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="71.4517" y="91.5253" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="71.4517" y="91.5253" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R10" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="70.1817" y="114.3853" rot="R90" smashed="yes"/>
+<element name="BAT5" library="Tinkercad" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/2" value="3V" x="14.9368" y="117.9554" rot="R270" smashed="yes"/>
+<element name="D20" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="71.4517" y="99.1453" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="71.4517" y="99.1453" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SW4" library="Tinkercad" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/1" value="SPST-478B04ST" x="38.4317" y="95.3353" smashed="yes"/>
+<element name="R12" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="82.8817" y="114.3853" rot="R90" smashed="yes"/>
+<element name="D22" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="84.1517" y="104.2253" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="84.1517" y="104.2253" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D21" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="76.5317" y="104.2253" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="76.5317" y="104.2253" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R11" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="75.2617" y="114.3853" rot="R90" smashed="yes"/>
+<element name="R7" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="63.4999" y="8.97" rot="R90" smashed="yes"/>
+<element name="D27" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="64.7699" y="21.67" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="64.7699" y="21.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SW5" library="Tinkercad" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/1" value="SPST-478B04ST" x="31.7499" y="25.48" smashed="yes"/>
+<element name="BAT6" library="Tinkercad" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/2" value="3V" x="8.255" y="48.1002" rot="R270" smashed="yes"/>
+<element name="R15" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="68.5799" y="8.97" rot="R90" smashed="yes"/>
+<element name="D34" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="69.8499" y="16.59" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="69.8499" y="16.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R16" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="76.1999" y="8.97" rot="R90" smashed="yes"/>
+<element name="D33" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="77.4699" y="16.59" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="77.4699" y="16.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D32" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="82.5499" y="21.67" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="82.5499" y="21.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R17" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="81.2799" y="8.97" rot="R90" smashed="yes"/>
+<element name="R18" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="81.2799" y="44.53" rot="R90" smashed="yes"/>
+<element name="D31" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="82.5499" y="29.29" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="82.5499" y="29.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R19" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="76.1999" y="44.53" rot="R90" smashed="yes"/>
+<element name="D30" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="77.4699" y="34.37" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="77.4699" y="34.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R20" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="68.5799" y="44.53" rot="R90" smashed="yes"/>
+<element name="D29" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="69.8499" y="34.37" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="69.8499" y="34.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R21" library="Tinkercad" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/1" value="1k" x="63.4999" y="44.53" rot="R90" smashed="yes"/>
+<element name="D28" library="Tinkercad" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/1" value="RED" x="64.7699" y="29.29" rot="R180" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="64.7699" y="29.29" size="1.778" layer="27" display="off"/>
+</element>
+</elements>
+<signals>
+<signal name="D50_C">
+<contactref element="D50" pad="2"/>
+<contactref element="R1" pad="2"/>
+<wire x1="76.9113" y1="302.0354" x2="76.9113" y2="294.4154" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT2-">
+<contactref element="BAT2" pad="-"/>
+<contactref element="R1" pad="1"/>
+<wire x1="21.6665" y1="331.0056" x2="76.9113" y2="284.2554" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW1_3">
+<contactref element="SW1" pad="3"/>
+<contactref element="D50" pad="1"/>
+<wire x1="46.4313" y1="302.0354" x2="79.4513" y2="302.0354" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT2+">
+<contactref element="BAT2" pad="+"/>
+<contactref element="SW1" pad="8"/>
+<contactref element="SW1" pad="7"/>
+<contactref element="SW1" pad="6"/>
+<contactref element="SW1" pad="5"/>
+<wire x1="41.3513" y1="309.6554" x2="43.8913" y2="309.6554" width="0" layer="19" extent="1-1"/>
+<wire x1="43.8913" y1="309.6554" x2="46.4313" y2="309.6554" width="0" layer="19" extent="1-1"/>
+<wire x1="46.4313" y1="309.6554" x2="48.9713" y2="309.6554" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6665" y1="325.9256" x2="41.3513" y2="309.6554" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_C">
+<contactref element="D2" pad="2"/>
+<contactref element="R3" pad="1"/>
+<wire x1="74.2221" y1="243.7242" x2="74.2221" y2="253.8842" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT3-">
+<contactref element="BAT3" pad="-"/>
+<contactref element="R2" pad="1"/>
+<contactref element="R3" pad="2"/>
+<wire x1="74.2221" y1="218.3242" x2="74.2221" y2="264.0442" width="0" layer="19" extent="1-1"/>
+<wire x1="18.9773" y1="265.0744" x2="74.2221" y2="264.0442" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW2_4">
+<contactref element="SW2" pad="4"/>
+<contactref element="D2" pad="1"/>
+<wire x1="46.2821" y1="236.1042" x2="76.7621" y2="243.7242" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT3+">
+<contactref element="BAT3" pad="+"/>
+<contactref element="SW2" pad="8"/>
+<contactref element="SW2" pad="7"/>
+<contactref element="SW2" pad="6"/>
+<contactref element="SW2" pad="5"/>
+<wire x1="38.6621" y1="243.7242" x2="41.2021" y2="243.7242" width="0" layer="19" extent="1-1"/>
+<wire x1="41.2021" y1="243.7242" x2="43.7421" y2="243.7242" width="0" layer="19" extent="1-1"/>
+<wire x1="43.7421" y1="243.7242" x2="46.2821" y2="243.7242" width="0" layer="19" extent="1-1"/>
+<wire x1="18.9773" y1="259.9944" x2="38.6621" y2="243.7242" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW2_3">
+<contactref element="SW2" pad="3"/>
+<contactref element="D10" pad="1"/>
+<wire x1="43.7421" y1="236.1042" x2="76.7621" y2="236.1042" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D10_C">
+<contactref element="D10" pad="2"/>
+<contactref element="R2" pad="2"/>
+<wire x1="74.2221" y1="236.1042" x2="74.2221" y2="228.4842" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT4-">
+<contactref element="BAT4" pad="-"/>
+<contactref element="R5" pad="1"/>
+<contactref element="R8" pad="2"/>
+<contactref element="R9" pad="2"/>
+<wire x1="70.0221" y1="186.0308" x2="75.1021" y2="186.0308" width="0" layer="19" extent="1-1"/>
+<wire x1="70.0221" y1="140.3108" x2="70.0221" y2="186.0308" width="0" layer="19" extent="1-1"/>
+<wire x1="14.7772" y1="187.0609" x2="70.0221" y2="186.0308" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D11_C">
+<contactref element="D11" pad="2"/>
+<contactref element="R5" pad="2"/>
+<wire x1="70.0221" y1="158.0908" x2="70.0221" y2="150.4708" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW3_4">
+<contactref element="SW3" pad="4"/>
+<contactref element="D11" pad="1"/>
+<contactref element="D12" pad="1"/>
+<contactref element="D13" pad="1"/>
+<wire x1="72.5621" y1="165.7108" x2="77.6421" y2="170.7908" width="0" layer="19" extent="1-1"/>
+<wire x1="72.5621" y1="158.0908" x2="72.5621" y2="165.7108" width="0" layer="19" extent="1-1"/>
+<wire x1="42.0821" y1="158.0908" x2="72.5621" y2="158.0908" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT4+">
+<contactref element="BAT4" pad="+"/>
+<contactref element="SW3" pad="8"/>
+<contactref element="SW3" pad="5"/>
+<contactref element="SW3" pad="6"/>
+<contactref element="SW3" pad="7"/>
+<wire x1="34.4621" y1="165.7108" x2="37.0021" y2="165.7108" width="0" layer="19" extent="1-1"/>
+<wire x1="39.5421" y1="165.7108" x2="37.0021" y2="165.7108" width="0" layer="19" extent="1-1"/>
+<wire x1="42.0821" y1="165.7108" x2="39.5421" y2="165.7108" width="0" layer="19" extent="1-1"/>
+<wire x1="14.7772" y1="181.9809" x2="34.4621" y2="165.7108" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D13_C">
+<contactref element="D13" pad="2"/>
+<contactref element="R9" pad="1"/>
+<wire x1="75.1021" y1="170.7908" x2="75.1021" y2="175.8708" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D12_C">
+<contactref element="D12" pad="2"/>
+<contactref element="R8" pad="1"/>
+<wire x1="70.0221" y1="165.7108" x2="70.0221" y2="175.8708" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT5-">
+<contactref element="BAT5" pad="-"/>
+<contactref element="R6" pad="1"/>
+<contactref element="R10" pad="2"/>
+<contactref element="R11" pad="2"/>
+<contactref element="R12" pad="2"/>
+<wire x1="70.1817" y1="119.4653" x2="75.2617" y2="119.4653" width="0" layer="19" extent="1-1"/>
+<wire x1="75.2617" y1="119.4653" x2="82.8817" y2="119.4653" width="0" layer="19" extent="1-1"/>
+<wire x1="70.1817" y1="73.7453" x2="70.1817" y2="119.4653" width="0" layer="19" extent="1-1"/>
+<wire x1="14.9368" y1="120.4954" x2="70.1817" y2="119.4653" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D19_C">
+<contactref element="D19" pad="2"/>
+<contactref element="R6" pad="2"/>
+<wire x1="70.1817" y1="91.5253" x2="70.1817" y2="83.9053" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW4_4">
+<contactref element="SW4" pad="4"/>
+<contactref element="D19" pad="1"/>
+<contactref element="D20" pad="1"/>
+<wire x1="72.7217" y1="91.5253" x2="72.7217" y2="99.1453" width="0" layer="19" extent="1-1"/>
+<wire x1="42.2417" y1="91.5253" x2="72.7217" y2="91.5253" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D20_C">
+<contactref element="D20" pad="2"/>
+<contactref element="R10" pad="1"/>
+<wire x1="70.1817" y1="99.1453" x2="70.1817" y2="109.3053" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT5+">
+<contactref element="BAT5" pad="+"/>
+<contactref element="SW4" pad="8"/>
+<contactref element="SW4" pad="5"/>
+<contactref element="SW4" pad="6"/>
+<contactref element="SW4" pad="7"/>
+<wire x1="42.2417" y1="99.1453" x2="39.7017" y2="99.1453" width="0" layer="19" extent="1-1"/>
+<wire x1="39.7017" y1="99.1453" x2="37.1617" y2="99.1453" width="0" layer="19" extent="1-1"/>
+<wire x1="34.6217" y1="99.1453" x2="37.1617" y2="99.1453" width="0" layer="19" extent="1-1"/>
+<wire x1="14.9368" y1="115.4154" x2="34.6217" y2="99.1453" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW4_1">
+<contactref element="SW4" pad="1"/>
+<contactref element="D21" pad="1"/>
+<contactref element="D22" pad="1"/>
+<wire x1="77.8017" y1="104.2253" x2="85.4217" y2="104.2253" width="0" layer="19" extent="1-1"/>
+<wire x1="34.6217" y1="91.5253" x2="77.8017" y2="104.2253" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D22_C">
+<contactref element="D22" pad="2"/>
+<contactref element="R12" pad="1"/>
+<wire x1="82.8817" y1="104.2253" x2="82.8817" y2="109.3053" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D21_C">
+<contactref element="D21" pad="2"/>
+<contactref element="R11" pad="1"/>
+<wire x1="75.2617" y1="104.2253" x2="75.2617" y2="109.3053" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT6-">
+<contactref element="BAT6" pad="-"/>
+<contactref element="R7" pad="1"/>
+<contactref element="R15" pad="1"/>
+<contactref element="R16" pad="1"/>
+<contactref element="R17" pad="1"/>
+<contactref element="R18" pad="2"/>
+<contactref element="R19" pad="2"/>
+<contactref element="R20" pad="2"/>
+<contactref element="R21" pad="2"/>
+<wire x1="63.4999" y1="3.89" x2="68.5799" y2="3.89" width="0" layer="19" extent="1-1"/>
+<wire x1="68.5799" y1="3.89" x2="76.1999" y2="3.89" width="0" layer="19" extent="1-1"/>
+<wire x1="76.1999" y1="3.89" x2="81.2799" y2="3.89" width="0" layer="19" extent="1-1"/>
+<wire x1="63.4999" y1="3.89" x2="63.4999" y2="49.61" width="0" layer="19" extent="1-1"/>
+<wire x1="68.5799" y1="49.61" x2="63.4999" y2="49.61" width="0" layer="19" extent="1-1"/>
+<wire x1="76.1999" y1="49.61" x2="68.5799" y2="49.61" width="0" layer="19" extent="1-1"/>
+<wire x1="81.2799" y1="49.61" x2="76.1999" y2="49.61" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="50.6402" x2="63.4999" y2="49.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D27_C">
+<contactref element="D27" pad="2"/>
+<contactref element="R7" pad="2"/>
+<wire x1="63.4999" y1="21.67" x2="63.4999" y2="14.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW5_3">
+<contactref element="D27" pad="1"/>
+<contactref element="SW5" pad="3"/>
+<contactref element="D34" pad="1"/>
+<contactref element="D33" pad="1"/>
+<contactref element="D32" pad="1"/>
+<wire x1="66.0399" y1="21.67" x2="71.1199" y2="16.59" width="0" layer="19" extent="1-1"/>
+<wire x1="71.1199" y1="16.59" x2="78.7399" y2="16.59" width="0" layer="19" extent="1-1"/>
+<wire x1="78.7399" y1="16.59" x2="83.8199" y2="21.67" width="0" layer="19" extent="1-1"/>
+<wire x1="66.0399" y1="21.67" x2="33.0199" y2="21.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT6+">
+<contactref element="BAT6" pad="+"/>
+<contactref element="SW5" pad="8"/>
+<contactref element="SW5" pad="5"/>
+<contactref element="SW5" pad="6"/>
+<contactref element="SW5" pad="7"/>
+<wire x1="27.9399" y1="29.29" x2="30.4799" y2="29.29" width="0" layer="19" extent="1-1"/>
+<wire x1="33.0199" y1="29.29" x2="30.4799" y2="29.29" width="0" layer="19" extent="1-1"/>
+<wire x1="35.5599" y1="29.29" x2="33.0199" y2="29.29" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="45.5602" x2="27.9399" y2="29.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW5_2">
+<contactref element="SW5" pad="2"/>
+<contactref element="D28" pad="1"/>
+<contactref element="D29" pad="1"/>
+<contactref element="D30" pad="1"/>
+<contactref element="D31" pad="1"/>
+<wire x1="66.0399" y1="29.29" x2="71.1199" y2="34.37" width="0" layer="19" extent="1-1"/>
+<wire x1="71.1199" y1="34.37" x2="78.7399" y2="34.37" width="0" layer="19" extent="1-1"/>
+<wire x1="78.7399" y1="34.37" x2="83.8199" y2="29.29" width="0" layer="19" extent="1-1"/>
+<wire x1="30.4799" y1="21.67" x2="66.0399" y2="29.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D34_C">
+<contactref element="D34" pad="2"/>
+<contactref element="R15" pad="2"/>
+<wire x1="68.5799" y1="16.59" x2="68.5799" y2="14.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D33_C">
+<contactref element="D33" pad="2"/>
+<contactref element="R16" pad="2"/>
+<wire x1="76.1999" y1="16.59" x2="76.1999" y2="14.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D32_C">
+<contactref element="D32" pad="2"/>
+<contactref element="R17" pad="2"/>
+<wire x1="81.2799" y1="21.67" x2="81.2799" y2="14.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D31_C">
+<contactref element="D31" pad="2"/>
+<contactref element="R18" pad="1"/>
+<wire x1="81.2799" y1="29.29" x2="81.2799" y2="39.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D30_C">
+<contactref element="D30" pad="2"/>
+<contactref element="R19" pad="1"/>
+<wire x1="76.1999" y1="34.37" x2="76.1999" y2="39.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D29_C">
+<contactref element="D29" pad="2"/>
+<contactref element="R20" pad="1"/>
+<wire x1="68.5799" y1="34.37" x2="68.5799" y2="39.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D28_C">
+<contactref element="D28" pad="2"/>
+<contactref element="R21" pad="1"/>
+<wire x1="63.4999" y1="29.29" x2="63.4999" y2="39.45" width="0" layer="19" extent="1-1"/>
+</signal>
+</signals>
+</board>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">Since Version 8.3, EAGLE supports URNs for individual library assets (packages, symbols, and devices). The URNs of those assets will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">Since Version 8.3, EAGLE supports the association of 3D packages with devices in libraries, schematics, and board files. Those 3D packages will not be understood (or retained) with this version.
+</note>
+<note version="8.4" severity="warning">Since Version 8.4, EAGLE supports properties for SPICE simulation. Probes in schematics and SPICE mapping objects found in parts and library devices will not be understood with this version. Update EAGLE to the latest version for full support of SPICE simulation.
+</note>
+</compatibility>
+</eagle>
